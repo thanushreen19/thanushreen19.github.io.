@@ -1,0 +1,129 @@
+.startpage{
+    background-color: rgb(182, 172, 172);
+    margin:0%;
+    padding:0%;
+}
+.headshow{
+    margin:0%;
+    color:rgb(98, 29, 217);
+    background-color:gray;
+    font-size:xx-large;
+    text-align: center;
+}
+.imgshow img{
+   
+    width:100%;
+    height:25rem;
+  
+}
+
+ ul{
+    background-color:lightgray;
+    font-size: x-large;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:0.9rem;
+    margin:0%;
+}
+
+ul li a{
+    
+    color:rgb(146, 34, 138);
+}
+ul li a:hover{
+    color:rgb(30, 167, 167);
+    text-decoration:underline ;
+    
+
+}
+*{
+    
+    list-style-type: none;
+    text-decoration: none;
+}
+.details{
+    background-color:maroon;
+    width:100%;
+    height:100%;
+    padding:1rem;
+}
+.details__head{
+
+    font-size:xx-large;
+    color:rgb(17, 0, 255);
+    background-color:red ;
+   
+    text-align: center;
+} 
+.details__pic{
+    position:relative;
+}   
+.vcard{
+    width:50%;
+    height:50%;
+    position:relative;
+    top:50%;
+    left:25%;
+}
+.gava{
+    background-color: brown;
+    width:100%;
+    height:100%;
+    padding:1rem;
+}
+.ghead{
+    color: rgb(0, 47, 255);
+    background-color: darkgray;
+    text-align:center;
+}
+.cards{
+    width:60%;
+    height:50%;
+    padding:1rem;  
+}
+.gcard{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    gap:1rem;
+}
+.gcards:hover{
+    color:rgb(255, 30, 30);
+}
+.cardn{
+    background-color: rgb(85, 255, 0);
+    width:15rem;
+    text-align:center
+}
+@media screen and (max-width:768px){
+   .details{
+       background-color: rgb(242, 255, 127);
+   }
+   .gava{
+    background-color: rgb(242, 255, 127);
+   }
+   .startpage{
+    background-color: rgb(242, 255, 127);
+   }
+}
+@media screen and (max-width:600px){
+    .details{
+        background-color: rgb(155, 25,100);
+    }
+    .gava{
+     background-color: rgb(155,25,100);
+    }
+    .startpage{
+     background-color: rgba(155,25,100);
+    }
+ }
+
+    
+
+
+
+
+
+
+
+
